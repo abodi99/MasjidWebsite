@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>THEMosque - Mosque Website Template</title>
+    <title>Al-Salam Moské</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
@@ -44,335 +44,370 @@
 
 
 
-
-
-    <div class="container">
-        <nav class="navbar navbar-light navbar-expand-lg py-3">
-
-            <a href="index.html" class="navbar-brand mx-auto"></a>
-            <img src="img/Al-Salam-Center-Logo.png" alt="Mosque Logo" class="img-fluid" style="max-height: 100px;">
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-                <span class="fa fa-bars text-primary"></span>
-            </button>
-            <div class="collapse navbar-collapse bg-white" id="navbarCollapse">
-                <div class="navbar-nav ms-lg-auto mx-xl-auto">
-                    <a href="index.html" class="nav-item nav-link active">Home</a>
-                    <a href="about.html" class="nav-item nav-link">About</a>
-                    <a href="activity.html" class="nav-item nav-link">Activities</a>
-                    <a href="event.html" class="nav-item nav-link">Events</a>
-                    <a href="sermon.html" class="nav-item nav-link">Sermons</a>
-
-                    <a href="contact.html" class="nav-item nav-link">Contact</a>
-                </div>
-                <a href="" class="btn py-2 px-4 d-none d-xl-inline-block"></a>
-                <img src="img/swish.png" alt="Swish Icon" class="me-2" style="width: 20px;">Swish: 1235942958
+    <!-- Add container div to control width -->
+    <div class="container-fluid" style="max-width: 1200px;">
+        <nav class="navbar fixed-top navbar-light navbar-expand-lg bg-white py-3 rounded shadow-sm">
+            <div class="container-fluid d-flex justify-content-between align-items-center">
+                <!-- Logo -->
+                <a href="index.html" class="navbar-brand ms-lg-5">
+                    <img src="img/Al-Salam-Center-Logo.png" alt="Mosque Logo" class="img-fluid"
+                        style="max-height: 80px;">
                 </a>
-                <div class="" style="padding-right: 20px;">
 
-                </div>
+                <!-- Hamburger button -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="fa fa-bars text-primary"></span>
+                </button>
 
-                <div class="d-flex align-items-center border-bottom py-4" style="padding-top: 10px;">
-                    <div class="d-flex">
-                        <a class="btn btn-primary btn-lg-square me-2" href="https://www.facebook.com/alsalam.center.se"
-                            style="margin-right: 10px;"><i class="fab fa-facebook-f"></i></a>
-                        <a href="https://www.tiktok.com/@alsalam_center_hbg" class="btn btn-primary btn-lg-square me-2"
-                            style="margin-right: 10px;"><i class="fab fa-tiktok"></i></a>
-                        <a href="https://www.instagram.com/alsalam_center_hbg?igsh=MW56dmFma3VsZ2htaA=="
-                            class="btn btn-primary btn-lg-square"><i class="fab fa-instagram"></i></a>
+                <!-- Collapsible content -->
+                <div class="collapse navbar-collapse bg-white justify-content-center" id="navbarCollapse">
+                    <!-- Navigation links -->
+                    <div class="navbar-nav align-items-center">
+                        <a href="index.html" class="nav-item nav-link active">Home</a>
+                        <a href="#OmOss" class="nav-item nav-link ">Om Oss</a>
+
+                        <a href="#Services" class="nav-item nav-link">Tjänster</a>
+                        <a href="donations.html" class="nav-item nav-link">Donationer</a>
+                        <a href="school.html" class="nav-item nav-link">Skolan</a>
+                        <a href="marrige.html" class="nav-item nav-link">Äktenskap</a>
+
+
+                        <a href="#contact" class="nav-item nav-link me-lg-5">Kontakt</a>
+
+
+
+                        <!-- Social media buttons -->
+                        <div class="d-flex align-items-center ms-4">
+                            <a class="btn btn-primary btn-sm me-2" href="https://www.facebook.com/alsalam.center.se">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a class="btn btn-primary btn-sm me-2" href="https://www.tiktok.com/@alsalam_center_hbg">
+                                <i class="fab fa-tiktok"></i>
+                            </a>
+                            <a class="btn btn-primary btn-sm" href="https://www.instagram.com/alsalam_center_hbg">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </div>
+
+                        <!-- Swish button -->
+
+                        <span class="navbar-text">
+                            <div class="d-none d-xl-flex align-items-center ms-4">
+                                <img src="img/swish.png" alt="Swish Icon" class="me-2" style="width: 20px;">
+                                <span>Swish: 1235942958</span>
+                            </div>
+                        </span>
                     </div>
                 </div>
-
             </div>
         </nav>
     </div>
 
+    <!-- Add margin to prevent content from hiding behind navbar -->
+    <div style="margin-top: 100px;"></div>
 
 
-    <!-- Hero Start -->
-    <div class="container-fluid hero-header">
+    <div class="container-fluid py-5"
+        style="background: url('img/Al-Salam-Insida.jpg') no-repeat center center; background-size: cover;">
         <div class="container">
-            <div class="row">
-                <div class="container">
-                    <div class="jumbotron bg-light text-dark p-3 rounded"
-                        style="opacity: 0.9; width: 40%; margin-left: auto;">
-                        <h1 class="display-4">Prayer Times</h1>
-                        <p class="lead">Stay updated with the latest prayer times</p>
-                        <hr class="my-4">
-                        <table class="table table-bordered">
-                            <thead>
-                                <tr>
-                                    <th scope="col">Prayer</th>
-                                    <th scope="col">Time</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>Fajr</td>
-                                    <td>05:00 AM</td>
-                                </tr>
-                                <tr>
-                                    <td>Dhuhr</td>
-                                    <td>01:00 PM</td>
-                                </tr>
-                                <tr>
-                                    <td>Asr</td>
-                                    <td>04:30 PM</td>
-                                </tr>
-                                <tr>
-                                    <td>Maghrib</td>
-                                    <td>07:00 PM</td>
-                                </tr>
-                                <tr>
-                                    <td>Isha</td>
-                                    <td>08:30 PM</td>
-                                </tr>
-                            </tbody>
-                        </table>
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-8 col-lg-6">
+                    <div class="card shadow">
+                        <div class="card-body">
+                            <div class="text-center mb-4">
+                                <h1 class="display-5 fw-bold">Prayer Times</h1>
+                                <p class="lead">Stay updated with the latest prayer times</p>
+                            </div>
+
+                            <div class="table-responsive">
+                                <table class="table table-bordered table-hover">
+                                    <thead class="table-light">
+                                        <tr>
+                                            <th scope="col">Prayer</th>
+                                            <th scope="col">Time</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Fajr</td>
+                                            <td>05:00 AM</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Dhuhr</td>
+                                            <td>01:00 PM</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Asr</td>
+                                            <td>04:30 PM</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Maghrib</td>
+                                            <td>07:00 PM</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Isha</td>
+                                            <td>08:30 PM</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- Hero End -->
 
 
 
 
+    <section id="OmOss">
 
-    <!-- About Satrt -->
-    <div class="container-fluid about py-5">
+        <!-- About Satrt -->
+        <div class="container-fluid about py-5">
+            <div class="container py-5">
+                <div class="row g-5 mb-5">
+                    <div class="col-xl-6">
+                        <div class="row g-4">
+                            <div class="col-6">
+                                <img src="img/about-1.jpg" class="img-fluid h-100 wow zoomIn" data-wow-delay="0.1s"
+                                    alt="">
+                            </div>
+                            <div class="col-6">
+                                <img src="img/about-2.jpg" class="img-fluid pb-3 wow zoomIn" data-wow-delay="0.1s"
+                                    alt="">
+                                <img src="img/about-3.jpg" class="img-fluid pt-3 wow zoomIn" data-wow-delay="0.1s"
+                                    alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 wow fadeIn" data-wow-delay="0.5s">
+                        <h1 class="display-5 pb-4 m-0">Om Oss</h1>
+                        <p class="text-secondary" style="line-height: 2;">
+                            Al Salam i Helsingborg är en islamisk förening och moksé. Ett center för muslimer att vända
+                            sig i alla aspekter av sitt liv, från bön och jummah till giftemål, kunskap, vägledning i
+                            sakfrågor
+                            i fiqh, till koranskola och arbaiska för barnen.</p>
+                        <h2 class="display-6 pb-4 m-0">Vår Vision</h2>
+
+                        <p class="text-secondary" style="line-height: 2;">
+                            muslimerna ska känna sig hemma i landet, kunna praktisera och utöva relgionen
+                            fullt ut som Svenska Muslimer.</p>
+
+
+
+                    </div>
+
+                </div>
+            </div>
+            <!-- About End -->
+        </div>
+    </section>
+
+    <!-- Activities Start -->
+    <div class="container-fluid activities py-5">
         <div class="container py-5">
-            <div class="row g-5 mb-5">
-                <div class="col-xl-6">
-                    <div class="row g-4">
-                        <div class="col-6">
-                            <img src="img/about-1.jpg" class="img-fluid h-100 wow zoomIn" data-wow-delay="0.1s" alt="">
-                        </div>
-                        <div class="col-6">
-                            <img src="img/about-2.jpg" class="img-fluid pb-3 wow zoomIn" data-wow-delay="0.1s" alt="">
-                            <img src="img/about-3.jpg" class="img-fluid pt-3 wow zoomIn" data-wow-delay="0.1s" alt="">
+            <div class="mx-auto text-center mb-5 wow fadeIn" data-wow-delay="0.1s" style="max-width: 700px;">
+                <h1 class="display-3">
+                    Vår Värdegrund
+                </h1>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-6 col-xl-4">
+                    <div class="activities-item p-4 wow fadeIn" data-wow-delay="0.1s">
+                        <i class="fa fa-mosque fa-4x text-dark"></i>
+                        <div class="ms-4">
+                            <h4>Kunskap</h4>
+                            <p class="mb-4">En viktig del
+                                av varje muslims resa är
+                                sökandet av kunskap.
+                            </p>
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-6 wow fadeIn" data-wow-delay="0.5s">
-                    <h1 class="display-5 pb-4 m-0">Om Oss</h1>
-                    <p class="text-secondary" style="line-height: 2;">
-                        Al Salam i Helsingborg är en islamisk förening och moksé. Ett center för muslimer att vända
-                        sig i alla aspekter av sitt liv, från bön och jummah till giftemål, kunskap, vägledning i
-                        sakfrågor
-                        i fiqh, till koranskola och arbaiska för barnen.</p>
-                    <h2 class="display-6 pb-4 m-0">Vår Vision</h2>
-
-                    <p class="text-secondary" style="line-height: 2;">
-                        muslimerna ska känna sig hemma i landet, kunna praktisera och utöva relgionen
-                        fullt ut som Svenska Muslimer.</p>
-
-
-
+                <div class="col-lg-6 col-xl-4">
+                    <div class="activities-item p-4 wow fadeIn" data-wow-delay="0.3s">
+                        <i class="fa fa-users fa-4x text-dark"></i>
+                        <div class="ms-4">
+                            <h4>Gemenskap</h4>
+                            <p class="mb-4">Vi ber tillsammans, vi bryter
+                                vår fasta tillsammans, Islam
+                                ger en gemenskap.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-xl-4">
+                    <div class="activities-item p-4 wow fadeIn" data-wow-delay="0.5s">
+                        <i class="fa fa-quran fa-4x text-dark"></i>
+                        <div class="ms-4">
+                            <h4>Böner</h4>
+                            <p class="mb-4">Moskén är öppen för de 5 dagliga bönerna.
+                            </p>
+                        </div>
+                    </div>
                 </div>
 
             </div>
         </div>
-        <!-- About End -->
+    </div>
+    <!-- Activities Start -->
 
 
-        <!-- Activities Start -->
-        <div class="container-fluid activities py-5">
-            <div class="container py-5">
-                <div class="mx-auto text-center mb-5 wow fadeIn" data-wow-delay="0.1s" style="max-width: 700px;">
-                    <h1 class="display-3">
-                        Vår Värdegrund
-                    </h1>
+
+
+    <!-- Sermon Start -->
+    <div class="container-fluid sermon py-5" id="Services">
+        <div class="container py-5">
+            <div class="text-center mx-auto mb-5 wow fadeIn" data-wow-delay="0.1s" style="max-width: 700px;">
+                <h1 class="display-3">Tjänster</h1>
+            </div>
+            <div class="row g-4 justify-content-center">
+                <div class="col-lg-6 col-xl-4">
+                    <div class="sermon-item wow fadeIn" data-wow-delay="0.1s">
+                        <div class="overflow-hidden p-4 pb-0">
+                            <img src="img/marrigecontract.jpg" class="img-fluid w-100" alt="">
+                        </div>
+                        <div class="p-4">
+
+                            <a href="" class="d-inline-block h4 lh-sm mb-3">Äktenskapskontrakt</a>
+                            <p class="mb-0">Nikah – Islamiskt äktenskapskontrakt utförs av Sheiykh Samir. Ni behöver
+                                boka en tid på förväg, vänligen skriv ett mail.</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="row g-4">
-                    <div class="col-lg-6 col-xl-4">
-                        <div class="activities-item p-4 wow fadeIn" data-wow-delay="0.1s">
-                            <i class="fa fa-mosque fa-4x text-dark"></i>
-                            <div class="ms-4">
-                                <h4>Kunskap</h4>
-                                <p class="mb-4">En viktig del
-                                    av varje muslims resa är
-                                    sökandet av kunskap.
-                                </p>
-                            </div>
+                <div class="col-lg-6 col-xl-4">
+                    <div class="sermon-item wow fadeIn" data-wow-delay="0.3s">
+                        <div class="overflow-hidden p-4 pb-0">
+                            <img src="img/fatwa.jpg" class="img-fluid w-100" alt="">
                         </div>
-                    </div>
-                    <div class="col-lg-6 col-xl-4">
-                        <div class="activities-item p-4 wow fadeIn" data-wow-delay="0.3s">
-                            <i class="fa fa-users fa-4x text-dark"></i>
-                            <div class="ms-4">
-                                <h4>Gemenskap</h4>
-                                <p class="mb-4">Vi ber tillsammans, vi bryter
-                                    vår fasta tillsammans, Islam
-                                    ger en gemenskap.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-xl-4">
-                        <div class="activities-item p-4 wow fadeIn" data-wow-delay="0.5s">
-                            <i class="fa fa-quran fa-4x text-dark"></i>
-                            <div class="ms-4">
-                                <h4>Böner</h4>
-                                <p class="mb-4">Moskén är öppen för de 5 dagliga bönerna.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
+                        <div class="p-4">
 
+                            <a href="" class="d-inline-block h4 lh-sm mb-3">Fatwaa</a>
+                            <p class="mb-0">Behöver ni rådfråga gällande en islamisk fiqh fråga så kan ni kontakta
+                                Sheiykh Samir via mail, whatsapp, eller boka en tid.</p>
+                        </div>
+                    </div>
                 </div>
+                <div class="col-lg-6 col-xl-4">
+                    <div class="sermon-item wow fadeIn" data-wow-delay="0.5s">
+                        <div class="overflow-hidden p-4 pb-0">
+                            <img src="img/familjconsulting.JPG" class="img-fluid w-100" alt="">
+                        </div>
+                        <div class="p-4">
+
+                            <a href="" class="d-inline-block h4 lh-sm mb-3">Familj rådgivning</a>
+                            <p class="mb-0">Behövs det medlas i ett ärende eller en konflikt inom familj etc.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-xl-4">
+                    <div class="sermon-item wow fadeIn" data-wow-delay="0.1s">
+                        <div class="overflow-hidden p-4 pb-0">
+                            <img src="img/school.jpg" class="img-fluid w-100" alt="">
+                        </div>
+                        <div class="p-4">
+
+                            <a href="" class="d-inline-block h4 lh-sm mb-3">
+                                Koran och Arabiska skola
+                            </a>
+                            <p class="mb-0">På helgerna finns det möjlighet för barnen att skrivas in i koran och
+                                arabiska skolan. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-xl-4">
+                    <div class="sermon-item wow fadeIn" data-wow-delay="0.1s">
+                        <div class="overflow-hidden p-4 pb-0">
+                            <img src="img/jumaa.jpg" class="img-fluid w-100" alt="">
+                        </div>
+                        <div class="p-4">
+
+                            <a href="" class="d-inline-block h4 lh-sm mb-3">Jummah Predikan</a>
+                            <p class="mb-0">Utför Predikan som hålls i moskén varje Jummah (fredag), börjar vid
+                                tiden
+                                för dhur bönen.</p>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
-        <!-- Activities Start -->
+    </div>
+    <!-- Sermon End -->
 
 
 
+    <!-- Team Start -->
+    <div class="container-fluid team py-5">
+        <div class="container py-5">
 
-        <!-- Sermon Start -->
-        <div class="container-fluid sermon py-5">
-            <div class="container py-5">
-                <div class="text-center mx-auto mb-5 wow fadeIn" data-wow-delay="0.1s" style="max-width: 700px;">
-                    <h1 class="display-3">Tjänster</h1>
+            <div class="row g-5">
+                <div class="col-lg-4 col-xl-5">
+                    <div class="team-img wow zoomIn" data-wow-delay="0.1s">
+                        <img src="img/SH-Samir.jpg" class="img-fluid" alt="">
+                    </div>
                 </div>
-                <div class="row g-4 justify-content-center">
-                    <div class="col-lg-6 col-xl-4">
-                        <div class="sermon-item wow fadeIn" data-wow-delay="0.1s">
-                            <div class="overflow-hidden p-4 pb-0">
-                                <img src="img/sermon-1.jpg" class="img-fluid w-100" alt="">
-                            </div>
-                            <div class="p-4">
+                <div class="col-lg-8 col-xl-7">
+                    <div class="team-item wow fadeIn" data-wow-delay="0.1s">
+                        <h1>Träffa Vår Imam Samir Elrifai</h1>
+                        <p class="lead">Sheiykh Samir Elrifai är vår Imam som är här för att hjälpa med alla era
+                            behov, från äktenskapskontrakt och fatwaa till familjerådgivning och undervisning i
+                            koran och arabiska.</p>
+                        <p class="lead">Han har studerat islamiska studier och har en lång erfarenhet av att hjälpa
+                            muslimer i olika aspekter av deras liv. Han är tillgänglig för att svara på frågor och
+                            ge råd.</p>
+                        <p class="lead">För att boka en tid med Sheiykh Samir, vänligen kontakta oss via e-post
+                            eller telefon.</p>
 
-                                <a href="" class="d-inline-block h4 lh-sm mb-3">Äktenskapskontrakt</a>
-                                <p class="mb-0">Nikah – Islamiskt äktenskapskontrakt utförs av Sheiykh Samir. Ni behöver
-                                    boka en tid på förväg, vänligen skriv ett mail.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-xl-4">
-                        <div class="sermon-item wow fadeIn" data-wow-delay="0.3s">
-                            <div class="overflow-hidden p-4 pb-0">
-                                <img src="img/sermon-2.jpg" class="img-fluid w-100" alt="">
-                            </div>
-                            <div class="p-4">
-
-                                <a href="" class="d-inline-block h4 lh-sm mb-3">Fatwaa</a>
-                                <p class="mb-0">Behöver ni rådfråga gällande en islamisk fiqh fråga så kan ni kontakta
-                                    Sheiykh Samir via mail, whatsapp, eller boka en tid.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-xl-4">
-                        <div class="sermon-item wow fadeIn" data-wow-delay="0.5s">
-                            <div class="overflow-hidden p-4 pb-0">
-                                <img src="img/sermon-3.jpg" class="img-fluid w-100" alt="">
-                            </div>
-                            <div class="p-4">
-
-                                <a href="" class="d-inline-block h4 lh-sm mb-3">Familj rådgivning</a>
-                                <p class="mb-0">Behövs det medlas i ett ärende eller en konflikt inom familj etc.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-xl-4">
-                        <div class="sermon-item wow fadeIn" data-wow-delay="0.1s">
-                            <div class="overflow-hidden p-4 pb-0">
-                                <img src="img/school.jpg" class="img-fluid w-100" alt="">
-                            </div>
-                            <div class="p-4">
-
-                                <a href="" class="d-inline-block h4 lh-sm mb-3">
-                                    Koran och Arabiska skola
-                                </a>
-                                <p class="mb-0">På helgerna finns det möjlighet för barnen att skrivas in i koran och
-                                    arabiska skolan. </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-xl-4">
-                        <div class="sermon-item wow fadeIn" data-wow-delay="0.1s">
-                            <div class="overflow-hidden p-4 pb-0">
-                                <img src="img/jumaa.jpg" class="img-fluid w-100" alt="">
-                            </div>
-                            <div class="p-4">
-
-                                <a href="" class="d-inline-block h4 lh-sm mb-3">Jummah Predikan</a>
-                                <p class="mb-0">Utför Predikan som hålls i moskén varje Jummah (fredag), börjar vid
-                                    tiden
-                                    för dhur bönen.</p>
-                            </div>
-                        </div>
                     </div>
 
                 </div>
             </div>
         </div>
-        <!-- Sermon End -->
-
-
-
-        <!-- Team Start -->
-        <div class="container-fluid team py-5">
-            <div class="container py-5">
-
-                <div class="row g-5">
-                    <div class="col-lg-4 col-xl-5">
-                        <div class="team-img wow zoomIn" data-wow-delay="0.1s">
-                            <img src="img/SH-Samir.jpg" class="img-fluid" alt="">
-                        </div>
-                    </div>
-                    <div class="col-lg-8 col-xl-7">
-                        <div class="team-item wow fadeIn" data-wow-delay="0.1s">
-                            <h1>Träffa Vår Imam Samir Elrifai</h1>
-                            <p class="lead">Sheiykh Samir Elrifai är vår Imam som är här för att hjälpa med alla era
-                                behov, från äktenskapskontrakt och fatwaa till familjerådgivning och undervisning i
-                                koran och arabiska.</p>
-                            <p class="lead">Han har studerat islamiska studier och har en lång erfarenhet av att hjälpa
-                                muslimer i olika aspekter av deras liv. Han är tillgänglig för att svara på frågor och
-                                ge råd.</p>
-                            <p class="lead">För att boka en tid med Sheiykh Samir, vänligen kontakta oss via e-post
-                                eller telefon.</p>
-
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-        </div>
+    </div>
     </div>
     <!-- Team End -->
 
-
     <!-- Contact Start -->
-    <div class="container-fluid contact py-5">
-        <div class="container py-5">
-            <div class="text-center mx-auto mb-5 wow fadeIn" data-wow-delay="0.1s" style="max-width: 700px;">
-                <h1 class="display-3">Kontakta Oss</h1>
-                <p class="mb-0">The contact form is currently inactive. Get a functional and working contact form with
-                    Ajax & PHP in a few minutes. Just copy and paste the files, add a little code and you're done. <a
-                        href="https://htmlcodex.com/contact-form">Download Now</a>.</p>
-            </div>
-            <div class="row g-4 wow fadeIn" data-wow-delay="0.3s">
-                <div class="col-sm-6">
-                    <input type="text" class="form-control bg-transparent p-3" placeholder="Your Name">
-                </div>
-                <div class="col-sm-6">
-                    <input type="email" class="form-control bg-transparent p-3" placeholder="Your Email">
-                </div>
-                <div class="col-12">
-                    <input type="text" class="form-control bg-transparent p-3" placeholder="Subject">
-                </div>
-                <div class="col-12">
-                    <textarea class="w-100 form-control bg-transparent p-3" rows="6" cols="10"
-                        placeholder="Your Message"></textarea>
-                </div>
-                <div class="col-12 text-center">
-                    <button class="btn btn-primary border-0 py-3 px-5" type="button">Skicka</button>
+    <section id="contact">
+        <div class="container-fluid contact py-5">
+            <div class="container py-5">
+                <div class="row justify-content-center">
+                    <div class="col-12 col-md-6">
+                        <div class="text-center mx-auto mb-5 wow fadeIn" data-wow-delay="0.1s"
+                            style="max-width: 700px;">
+                            <h1 class="display-3">Kontakta Oss</h1>
+                            <p class="mb-0">The contact form is currently inactive. Get a functional and working contact
+                                form with Ajax & PHP in a few minutes. Just copy and paste the files, add a little code
+                                and you're
+                                done. <a href="https://htmlcodex.com/contact-form">Download Now</a>.
+                            </p>
+                        </div>
+                        <div class="row g-4 wow fadeIn" data-wow-delay="0.3s">
+                            <div class="col-sm-6">
+                                <input type="text" class="form-control bg-transparent p-3" placeholder="Your Name">
+                            </div>
+                            <div class="col-sm-6">
+                                <input type="email" class="form-control bg-transparent p-3" placeholder="Your Email">
+                            </div>
+                            <div class="col-12">
+                                <input type="text" class="form-control bg-transparent p-3" placeholder="Subject">
+                            </div>
+                            <div class="col-12">
+                                <textarea class="w-100 form-control bg-transparent p-3" rows="6" cols="10"
+                                    placeholder="Your Message"></textarea>
+                            </div>
+                            <div class="col-12 text-center">
+                                <button class="btn btn-primary border-0 py-3 px-5" type="button">Skicka</button>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-    <!-- Contact Start -->
+    </section>
+    <!-- Contact End -->
 
     <!-- Footer Start -->
     <div class="container-fluid footer pt-5 wow fadeIn" data-wow-delay="0.1s">
@@ -438,9 +473,6 @@
                             </div>
                             <h6 class="text-secondary mt-4 mb-0">Bankgiro</h6>
                             <div class="d-flex align-items-center py-4">
-
-
-
                                 <p><img src="img/bankgirot_rod_rgb_72dpi.png" alt="Bank Icon" class="me-2"
                                         style="width: 100px;">5287-5723</p>
                             </div>
@@ -451,7 +483,7 @@
 
 
 
-                <div class="col-md-6 col-lg-6 col-xl-3">
+                <div class="col-md-6 col-lg-6 col-xl-6">
                     <iframe
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2244.123456789!2d12.694512345!3d56.046123456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4653a123456789ab%3A0x123456789abcdef!2sS%C3%B6dergatan%2065%2C%20252%2025%20Helsingborg%2C%20Sweden!5e0!3m2!1sen!2sus!4v1698765432101!5m2!1sen!2sus"
                         width="100%" height="450" style="border:0; width: 100%;" allowfullscreen="" loading="lazy"

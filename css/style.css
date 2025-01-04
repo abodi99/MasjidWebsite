@@ -154,12 +154,7 @@ h6,
     transition: .5s;
 }
 
-.navbar .navbar-nav .nav-link:hover,
-.navbar .navbar-nav .nav-link.active,
-.fixed-top.bg-white .navbar .navbar-nav .nav-link:hover,
-.fixed-top.bg-white .navbar .navbar-nav .nav-link.active {
-    color: var(--bs-primary);
-}
+
 
 .navbar .dropdown-toggle::after {
     border: none;
