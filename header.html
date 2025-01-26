@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- ...existing code... -->
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show w-100 vh-100 bg-white position-fixed translate-middle top-50 start-50  d-flex align-items-center justify-content-center">
+        <div class="spinner-grow text-primary" role="status"></div>
+    </div>
+    <!-- Spinner End -->
+
+    <!-- Add container div to control width -->
+    <div class="container-fluid" style="max-width: 1200px;">
+        <nav class="navbar fixed-top navbar-light navbar-expand-lg bg-white py-3 rounded shadow-sm">
+            <div class="container-fluid d-flex justify-content-between align-items-center">
+                <!-- Logo -->
+                <a href="index.html" class="navbar-brand ms-lg-5">
+                    <img src="img/Al-Salam-Center-Logo.png" alt="Mosque Logo" class="img-fluid"
+                        style="max-height: 80px;">
+                </a>
+
+                <!-- Hamburger button -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="fa fa-bars text-primary"></span>
+                </button>
+
+                <!-- Collapsible content -->
+                <div class="collapse navbar-collapse bg-white justify-content-center" id="navbarCollapse">
+                    <!-- Navigation links -->
+                    <div class="navbar-nav align-items-center">
+                        <a href="index.html" class="nav-item nav-link active">Home</a>
+                        <!-- <a href="#OmOss" class="nav-item nav-link ">Om Oss</a> -->
+                        <a href="#Services" class="nav-item nav-link">Tjänster</a>
+                        <a href="donations.html" class="nav-item nav-link">Donationer</a>
+                        <a href="school.html" class="nav-item nav-link">Skolan</a>
+                        <a href="marrige.html" class="nav-item nav-link">Äktenskap</a>
+                        <a href="#footer" class="nav-item nav-link me-lg-5">Kontakt</a>
+
+                        <!-- Social media buttons -->
+                        <div class="d-flex align-items-center ms-4">
+                            <a class="btn btn-primary btn-sm me-2" href="https://www.facebook.com/alsalam.center.se">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a class="btn btn-primary btn-sm me-2" href="https://www.instagram.com/alsalam_center_hbg">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a class="btn btn-primary btn-sm" href="https://www.tiktok.com/@alsalam_center_hbg">
+                                <i class="fab fa-tiktok"></i>
+                            </a>
+                        </div>
+
+                        <!-- Swish button -->
+                        <span class="navbar-text">
+                            <div class="d-none d-xl-flex align-items-center ms-4">
+                                <img src="img/swish.png" alt="Swish Icon" class="me-2" style="width: 20px;">
+                                <span>Swish: 1235942958</span>
+                            </div>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <!-- Add margin to prevent content from hiding behind navbar -->
+    <div style="margin-top: 100px;"></div>
+</body>
+</html>
