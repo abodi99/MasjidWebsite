@@ -34,12 +34,12 @@
 </head>
 
 <body>
- <!-- Header Start -->
- <div id="header-placeholder"></div>
- <!-- Header End -->
+    <!-- Header Start -->
+    <div id="header-placeholder"></div>
+    <!-- Header End -->
 
- <!-- Add margin to prevent content from hiding behind navbar -->
- <div style="margin-top: 100px;"></div>
+    <!-- Add margin to prevent content from hiding behind navbar -->
+    <div style="margin-top: 100px;"></div>
 
 
 
@@ -50,40 +50,46 @@
     <div class="container mt-5 pt-5">
         <h3>Donationsalternativ</h3>
         <div class="row">
-            <div class="col-md-4" style="margin-bottom: 60px;">
+            <div class="col-md-4" style="margin-bottom: 30px;">
                 <h4>1. Swish:</h4>
                 <p>Donation till Wakf Al Salam projektet: <strong>1235000559</strong></p>
                 <div style="text-align: center; margin-bottom: 60px;">
                     <p><img src="img/swishwakfQR.png" alt="Swish Icon" class="me-2" style="width: 200px;"></p>
                 </div>
-                <p>För att täcka moskéns löpande kostnader: <strong>1235942958</strong></p>
+              <!--  <p>För att täcka moskéns löpande kostnader: <strong>1235942958</strong></p>
                 <div style="text-align: center;">
-                <img src="img/swishQR.png" alt="Swish Icon" class="me-2" style="width: 200px;">
-                </div>
+                    <img src="img/swishQR.png" alt="Swish Icon" class="me-2" style="width: 200px;"> 
+                </div> -->
             </div>
 
 
 
             <div class="col-md-4" style="margin-bottom: 60px;">
                 <h4>2. Kort betalningar och mobil pay</h4>
-                <div style="text-align: center;margin-top: 60px;">
-                    <script async
-                    src="https://js.stripe.com/v3/buy-button.js">
-                  </script>
-                  <stripe-buy-button
-                    buy-button-id="buy_btn_1Qif7A4NRiKXf2Acps6r0nnB"
-                    publishable-key="pk_test_51Qif184NRiKXf2AcFLKJf95efg4T3AdVCjOfXnjf9WusKP34BznXlDlDcvC3OV9lfAHvyQtB7YIBlFzJJbsjdC9V009OSPHbSu">
-                  </stripe-buy-button>
+                <div style="text-align: center;margin-top: 30px;">
+                    <script async src="https://js.stripe.com/v3/buy-button.js">
+                    </script>
+                    <stripe-buy-button buy-button-id="buy_btn_1Qif7A4NRiKXf2Acps6r0nnB"
+                        publishable-key="pk_test_51Qif184NRiKXf2AcFLKJf95efg4T3AdVCjOfXnjf9WusKP34BznXlDlDcvC3OV9lfAHvyQtB7YIBlFzJJbsjdC9V009OSPHbSu">
+                    </stripe-buy-button>
+                </div>
             </div>
-            </div>
-            
+
 
             <div class="col-md-4" style="margin-bottom: 60px;">
-                <h4>3. Autogiro</h4>
-                <p>Genom att välja autogiro kan du stötta moske med ett fast donation summa, som hjälper till med att skapa ett fast inkomst till din moske. 
+                <h4>3. Autogiro</h4> 
+               <!-- <p>Genom att välja autogiro kan du stötta moske med ett fast donation summa, som hjälper till med att skapa ett fast inkomst till din moske. 
                 För att hjälpa mosken via autogiro kan du fylla i autogiro medgivandet och skicka det till oss via e-mail till: <a href="mailto:alsalam.center@outlook.com" style="color: rgb(241,195,87);">alsalam.center@outlook.com</a></p>
                 <iframe style="border: none; width: 100%; height: 80%;"src="img/autogiro-medgivandeblankett.pdf"></iframe>
-                Alternativt kan du ladda ner <a href="img/autogiro-medgivandeblankett.pdf">autogiro medgivandet</a>, fylla i den och komma in till mosken.
+                Alternativt kan du ladda ner <a href="img/autogiro-medgivandeblankett.pdf">autogiro medgivandet</a>, fylla i den och komma in till mosken.-->
+                <div style="text-align: center;margin-top: 30px;">
+                <script async src="https://js.stripe.com/v3/buy-button.js">
+                </script>
+
+                <stripe-buy-button buy-button-id="buy_btn_1Qo28M4NRiKXf2AcbvCLA9oM"
+                    publishable-key="pk_test_51Qif184NRiKXf2AcFLKJf95efg4T3AdVCjOfXnjf9WusKP34BznXlDlDcvC3OV9lfAHvyQtB7YIBlFzJJbsjdC9V009OSPHbSu">
+                </stripe-buy-button>
+            </div>
             </div>
         </div>
     </div>
@@ -92,11 +98,13 @@
         <h3>Autogiro Medgivandeblankett</h3>
         <div class="row">
             <div class="col-md-12" style="text-align: center; width: 100%;">
-                <iframe title="Autogiro-medgivandeblankett" src="https://eu.jotform.com/sign/250251685797064/invite/01jjh0czjdd9114c98ffef5df5?signEmbed=1" style="height:800px; width: 100%; border: 0"></iframe>
+                <iframe title="Autogiro-medgivandeblankett"
+                    src="https://eu.jotform.com/sign/250251685797064/invite/01jjh0czjdd9114c98ffef5df5?signEmbed=1"
+                    style="height:800px; width: 100%; border: 0"></iframe>
             </div>
         </div>
     </div>
-    
+
     <!-- Footer Start -->
     <div id="footer-placeholder"></div>
     <!-- Footer End -->
