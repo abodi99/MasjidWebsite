@@ -32,13 +32,21 @@
                 <div class="collapse navbar-collapse bg-white justify-content-center" id="navbarCollapse">
                     <!-- Navigation links -->
                     <div class="navbar-nav align-items-center">
-                        <a href="index.html" class="nav-item nav-link active">Home</a>
-                        <!-- <a href="#OmOss" class="nav-item nav-link ">Om Oss</a> -->
-                        <a href="#Services" class="nav-item nav-link">Tjänster</a>
-                        <a href="donations.html" class="nav-item nav-link">Donationer</a>
-                        <a href="school.html" class="nav-item nav-link">Skolan</a>
-                        <a href="marrige.html" class="nav-item nav-link">Äktenskap</a>
-                        <a href="#footer" class="nav-item nav-link me-lg-5">Kontakt</a>
+                        <a href="index.html" class="nav-item nav-link active" data-i18n="nav.home">Home</a>
+                        <a href="#Services" class="nav-item nav-link" data-i18n="nav.services">Tjänster</a>
+                        <a href="donations.html" class="nav-item nav-link" data-i18n="nav.donations">Donationer</a>
+                        <a href="school.html" class="nav-item nav-link" data-i18n="nav.school">Skolan</a>
+                        <a href="marrige.html" class="nav-item nav-link" data-i18n="nav.marriage">Äktenskap</a>
+                        <a href="#footer" class="nav-item nav-link me-lg-5" data-i18n="nav.contact">Kontakt</a>
+
+                        <!-- Language Selector -->
+                        <div class="language-switcher ms-4">
+                            <select id="language-selector" class="form-select form-select-sm">
+                                <option value="en">English</option>
+                                <option value="sv">Svenska</option>
+                                <option value="ar">العربية</option>
+                            </select>
+                        </div>
 
                         <!-- Social media buttons -->
                         <div class="d-flex align-items-center ms-4">
@@ -57,7 +65,7 @@
                         <span class="navbar-text">
                             <div class="d-none d-xl-flex align-items-center ms-4">
                                 <img src="img/swish.png" alt="Swish Icon" class="me-2" style="width: 20px;">
-                                <span>Swish: 1235942958</span>
+                                <span data-i18n="swish">Swish: 1235942958</span>
                             </div>
                         </span>
                     </div>
@@ -68,5 +76,5 @@
 
     <!-- Add margin to prevent content from hiding behind navbar -->
     <div style="margin-top: 100px;"></div>
-</body>
-</html>
+
+    <script src="js/i18n.js"></script>
